@@ -223,7 +223,7 @@ Hooks.on('createToken', (token, options, user_id)=>{
       t.flags.caterpillar.tail_index = i;
       t.flags.caterpillar.enabled = false;
       t.flags.caterpillar.head_id = token.id
-      t.img = token.getFlag(MOD_NAME, (i<len)?FLAG_BODY_TOKEN:FLAG_REAR_TOKEN );
+      t.texture.src = token.getFlag(MOD_NAME, (i<len)?FLAG_BODY_TOKEN:FLAG_REAR_TOKEN );
       tail.push(t);
     }
     canvas.scene.createEmbeddedDocuments("Token", tail).then((tokens)=>{
