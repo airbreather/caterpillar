@@ -16,9 +16,9 @@
     "relationships": {},
     "socket": false,
     "esmodules": ["./scripts/caterpillar.mjs"],    
-    "url": "https://github.com/oOve/caterpillar",
-    "download": "https://github.com/oOve/caterpillar/archive/10.0.1.zip",
-    "manifest": "https://github.com/oOve/caterpillar/releases/latest/download/module.json",
+    "url": "https://github.com/airbreather/caterpillar",
+    "download": "https://github.com/airbreather/caterpillar/archive/refs/heads/v12.zip",
+    "manifest": "https://github.com/airbreather/caterpillar/releases/latest/download/module.json",
     "license": "LICENSE",
     "readme": "README.md",
     "styles":[],
@@ -34,7 +34,7 @@
     "media": [
         {
           "type": "cover",
-          "url": "https://github.com/oOve/caterpillar/tree/main/media/cover.png",
+          "url": "https://github.com/airbreather/caterpillar/tree/v12/media/cover.png",
           "caption": "Caterpillar - loong mobs"
         }
     ],
